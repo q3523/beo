@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+.header{
+	width: 1024px;
+	height: 100vh;
+	background: #192314;
+	overflow: hidden;
+	position: relative;
+}
+.header-pic{
+	width: 652px;
+	height: 488px;
+	background: url(green-beosound-shape-desktop.jpg);
+	background-size: 100% auto;
+	float: right;
+}
+.header-text{
+	width: 358px;
+	height: 199px;
+	position: absolute;
+	top: 95px;
+	left: 98px;
+	color: #fff;
+	font-family: SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
+}
+.descrip{
+	font-family: "Gotham SSm A","Gotham SSm B";
+	line-height: 24px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.title{
+	line-height: 39px;
+	margin-top: 15px;
+	margin-bottom:24px;
+	letter-spacing: 3.75px;
+	font-weight: normal;
+	font-size: 30px;
+}
+.small-desc{
+	line-height: 21px;
+	margin-bottom: 19.5px;
+	font-size: 13px;
+}
+.button{
+	font-family: "Gotham SSm A","Gotham SSm B";
+	display: block;
+	width: 201px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 10px 40px;
+	text-decoration: none;
+	letter-spacing: 1.3332px;
+	background-color: rgba(255,255,255,0.1);
+}
+.banner{
+	width: 1024px;
+	height: 400px;
+	background: url(img-bg-1350.jpg);
+	background-size: 100% auto;
+	background-position: 0 -158px;
+}
+.product{
+	width: 705px;
+	height: 353px;
+	margin: 0 auto;
+	margin-top: -40px;
+	position: relative;
+	z-index: 100;
+}
+.product-item{
+	width: 235px;
+	height: 353px;
+	float: left;
+	position: relative;
+}
+.product-item h4{
+	color: #fff;
+	font-weight: normal;
+	position:absolute;
+	top: 15px;
+	left: 20px;
+}
+.product-item img{
+	width: 100%;
+}
